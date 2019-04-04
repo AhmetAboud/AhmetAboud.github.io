@@ -1,0 +1,53 @@
+body {
+	padding: 100px;
+
+	background-color: #2C2F33;
+}
+h1 {
+	color: white;
+}
+* {
+	font-family: "Arial";
+}
+
+input, textarea {
+	width: 800px;
+	padding: 15px;
+	margin: 5px;
+	border: 1px solid transparent;
+	outline: none;
+	border-radius: 10px;
+	resize: none;
+
+	font-size: 16px;
+	color: white;
+	background-color: #23272A;
+
+	transition: all 0.2s;
+}
+input:focus, textarea:focus {
+	border: 1px solid #7289DA;
+}
+
+.tab {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+	border-radius: 10px;
+
+	background-color: #23272A;
+	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+
+	transition: all 0.2s;
+}
+.tab:hover {
+	box-shadow: 3px 1px 5px 0px rgba(0, 0, 0, 0.3);
+
+	cursor: pointer;
+
+	transform: scale(1.05);
+}
+.tab img {
+	width: 100%;
+	height: 100%;
+}
